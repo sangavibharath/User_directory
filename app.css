@@ -1,0 +1,54 @@
+
+
+/*.container.main{*/
+/*    margin-top: 7.0em;*/
+/*}*/
+
+
+body{
+    background-color: 	#D3D3D3;
+    text-align: left;
+   
+}
+
+#box{
+    
+    width: 800px;
+	margin: 100px 300px;
+	background-color: white;
+	box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+.navbar, navbar-brand{
+    color:blue ;
+    letter-spacing: 2px;
+    background-color:white ;
+    font-size: 20px ;
+
+
+
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+padding: 0;
+border: none;
+background: none;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin:500px, 500px;
+  text-align: center;
+  font-family: arial;
+}
