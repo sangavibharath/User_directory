@@ -1,5 +1,4 @@
 var bodyParser      = require("body-parser"),
-     
     methodOverride  = require("method-override"),
     mongoose        = require("mongoose"),
     express         = require("express"),
@@ -33,7 +32,7 @@ app.get("/", function(req, res){
 
 //INDEX - Show all users
 app.get("/users", function(req, res){
-    //Get all campgrounds
+    //Get all users
     User.find({}, function(err, users){// this database
          if(err){
             console.log(err);
